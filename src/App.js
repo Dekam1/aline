@@ -14,6 +14,7 @@ function App() {
     if(open) {
       setTimeout(() => {
         setPismoOpen(true)
+        setOpen(false)
       }, 2000)
     }
   }
